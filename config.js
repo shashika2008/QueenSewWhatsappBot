@@ -23,7 +23,7 @@ DEBUG = process.env.DEBUG === undefined ? false : convertToBool(process.env.DEBU
 module.exports = {
     VERSION: 'sew-queen 2.0.0 - Full Control',
     CHANNEL: 'https://t.me/SewQueen',
-    SESSION: process.env._SEW_QUEEN_SESSION === undefined ? '' : process.env._SEW_QUEEN_SESSION,
+    SESSION: process.env._SEW_QUEEN_SESSION === undefined ? 'suho~nZ1XVaZC#DyFPXKzSWjfzu8hsHwo5gxihYI6k5KImDb3CaR0AVNo' : process.env._SEW_QUEEN_SESSION,
     ANTİLİNK: process.env.ANTİ_LİNK === undefined ? 'false' : process.env.ANTİ_LİNK,
     INBO: process.env.INBO_BLOCK === undefined ? 'false' : process.env.INBO_BLOCK,
     Bad_Word: process.env.BAD_KICK === undefined ? 'false' : process.env.BAD_KICK,
